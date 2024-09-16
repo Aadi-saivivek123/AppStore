@@ -1,0 +1,64 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+    .list-Item {
+      font-size: 26px;
+      color: #7b8794;
+      font-family: 'Bree Serif';
+      font-weight: 500;
+      margin-right: 30px;
+    }
+    .tabs {
+      border: none;
+      background-color: transparent;
+    }
+    .horizontal-line {
+      width: 100%;
+      height: 20%;
+      border: 2px solid #dfe2e5;
+    }
+    .tab-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .active-btn {
+      border: 2px solid #2563eb;
+    }
+    .active-btn1 {
+      color: #2563eb;
+      font-weight: 500;
+    }
+  }
+  
+  /* Write your CSS here */
+  @media screen and (max-width: 767px) {
+    .list-Item {
+      font-size: 18px;
+      color: #7b8794;
+      font-family: 'Bree Serif';
+      font-weight: 500;
+      margin-right: 18px;
+    }
+    .tabs {
+      border: none;
+      background-color: transparent;
+    }
+    .horizontal-line {
+      width: 100%;
+      height: 20%;
+      border: 2px solid #dfe2e5;
+    }
+    .tab-container {
+      display: flex;
+      flex-direction: column;
+      outline: none;
+    }
+    .active-btn {
+      border: 2px solid #2563eb;
+    }
+    .active-btn1 {
+      color: #2563eb;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+  

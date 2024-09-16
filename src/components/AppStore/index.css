@@ -1,0 +1,119 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+    .big-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+      padding: 10px;
+    }
+    .search-container {
+      position: relative;
+    }
+    .small-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .search-icon {
+      width: 40px;
+      height: 40px;
+      top: 5%;
+    }
+    .search-container .search-icon {
+      position: absolute;
+      right: 0%;
+      font-size: 16px;
+      color: #888;
+    }
+    .heading {
+      font-size: 60px;
+      color: #1e293b;
+      font-weight: 600;
+      text-align: center;
+      font-family: 'Bree Serif';
+    }
+    .SearchInput {
+      width: 40vw;
+      font-size: 24px;
+      padding: 10px;
+      border: 1px solid #7b8794;
+      border-radius: 8px;
+      background-color: transparent;
+    }
+    .unordered-container {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .unordered-container1 {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+  /* Write your CSS here */
+  @media screen and (max-width: 767px) {
+    .big-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+      padding: 10px;
+    }
+    .search-container {
+      position: relative;
+    }
+    .small-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .search-icon {
+      width: 25px;
+      height: 25px;
+      top: 5%;
+    }
+    .search-container .search-icon {
+      position: absolute;
+      right: 0%;
+      font-size: 16px;
+      color: #888;
+    }
+    .heading {
+      font-size: 30px;
+      color: #1e293b;
+      font-weight: 600;
+      text-align: center;
+      font-family: 'Bree Serif';
+    }
+    .SearchInput {
+      width: 35vw;
+      font-size: 18px;
+      padding: 5px;
+      border: 1px solid #7b8794;
+      border-radius: 8px;
+      background-color: transparent;
+    }
+    .unordered-container {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .unordered-container1 {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+  
